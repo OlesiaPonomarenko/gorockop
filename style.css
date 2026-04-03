@@ -127,9 +127,7 @@ button:hover {
     .container {
         flex-direction: column;
     }
-    .containerChild {
-        flex-direction: column;
-    }
+    
     .block {
         flex-direction: column;
     }
