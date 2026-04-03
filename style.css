@@ -1,0 +1,124 @@
+body {
+    background-image: url("./img/sufyan-5y8i9XgRkfU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lobster", sans-serif;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerChild {
+    display: flex;
+}
+
+.containerTwo {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.block {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.par.active {
+     display: block;
+ }
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10% 30% 50% 70%;;
+    color: #94B4C1;
+    background:
+            linear-gradient(135deg, rgba(22, 28, 44, 0.7), rgba(114, 9, 183, 0.6));
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid purple;
+}
+
+.btnOne {
+    background-image: url(./img/capricorn.png);
+}
+
+
+.btnTwo {
+    background-image: url(./img/aquarius.png);
+}
+
+.btnThree {
+    background-image: url(./img/pisces.png);
+}
+
+.btnFour {
+    background-image: url(./img/aries.png);
+}
+
+.btnFive {
+    background-image: url(./img/taurus.png);
+}
+
+.btnSix {
+    background-image: url(./img/gemini.png);
+}
+
+.btnSeven {
+    background-image: url(./img/cancer.png);
+} 
+
+.btnEight {
+    background-image: url(./img/leo.png);
+}
+
+.btnNine {
+    background-image: url(./img/virgo.png);
+}
+
+.btnTen {
+    background-image: url(./img/libra.png);
+}
+
+.btnEleven {
+    background-image: url(./img/scorpio.png);
+}
+
+.btnTwelve {
+    background-image: url(./img/sagittarius.png);
+}
+
+button:nth-child(odd) {
+    transform: translateX(-10px);
+}
+
+button:nth-child(even) {
+    transform: translateX(10px);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.par {
+    display: none;
+    color: #94B4C1;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #0e0e1a;
+    width: 25%;
+    border: 1px solid purple;
+    min-height: 120px;
+}
