@@ -72,7 +72,7 @@ blocks.forEach(block => {
     const btn = block.querySelector('button');
     const par = block.querySelector('.par');
     const sign = btn.dataset.sign;
-console.log(sign, predictions[sign]);
+
     let remainingQuotes = [...predictions[sign]];
 
     btn.addEventListener('click', () => {

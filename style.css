@@ -122,3 +122,26 @@ button:hover {
     border: 1px solid purple;
     min-height: 120px;
 }
+
+@media all and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+    .containerChild {
+        flex-direction: column;
+    }
+    .block {
+        flex-direction: column;
+    }
+    button {
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+        align-self: center;
+    }
+    .par {
+        font-size: 15px;
+        min-height: auto;
+        width: 90%;
+    }
+}
